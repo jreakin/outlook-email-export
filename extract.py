@@ -135,9 +135,8 @@ def process_olm(olm_file):
     for account in accounts:
         print(f"Account: {account}")
         extract_emails_from_account(extract_dir, account['folder'], account['email'])
-    
 
-if __name__ == "__main__":
+def extract_files():
     print("Starting OLM extraction...")
     current_dir = os.getcwd()
     olm_files = [f for f in os.listdir(current_dir) if f.endswith('.olm')]
@@ -153,3 +152,8 @@ if __name__ == "__main__":
     for olm_file in olm_files:
         print(f" - {olm_file}")
         process_olm(olm_file)
+
+
+
+if __name__ == "__main__":
+    extract_files()

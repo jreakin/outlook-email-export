@@ -1,6 +1,7 @@
 # Default ignores
 .venv
 .DS_Store
+__pycache__
 
 # Fork specific ignores
 output

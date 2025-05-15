@@ -1,5 +1,11 @@
+# Default ignores
+.venv
+.DS_Store
+
+# Fork specific ignores
 output
 *.olm
+
+# Project specific ignores
 mmailing\ list
 Mfundraising\ list\ april\ 2025
-.venv

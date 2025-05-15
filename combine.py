@@ -1,4 +1,3 @@
-import csv
 from typing import Optional
 from pathlib import Path
 from pydantic.dataclasses import dataclass as pydantic_dataclass
